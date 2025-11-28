@@ -1,0 +1,231 @@
+site:
+  languages: [en, fr]
+  defaultLanguage: en
+  particles: true
+
+profile:
+  name: Jason Benedetti
+  position: Software Engineer & Lead
+  email: jason.benedetti@live.fr
+  city: Thionville
+  country: France
+  introduction:
+    en: I build, mostly with PHP, complex systems to solve business needs.
+    fr: Je créer, principalement avec PHP, des systèmes complexes pour résoudre des besoins métiers.
+
+experience:
+  - company: ByBorg Enterprises
+    position: Engineering Lead
+    location: Luxembourg
+    startDate: '2021-08'
+    endDate: present
+    url: https://www.byborgenterprises.com/
+    description:
+      en: |
+          Lead of a team managing over 50 microservices handling millions of daily requests worldwide. 
+          Responsible for delivering business value, recruiting and training developers, 
+          and evolving engineering standards and best practices. 
+          Oversaw software architecture and supported teams in adopting and leveraging AI.
+      fr: |
+          Lead d’une équipe en charge de plus de 50 microservices gérant des millions de requêtes quotidiennes dans le monde. 
+          Responsable de la délivrance de valeur business, du recrutement et de la formation des développeurs, 
+          ainsi que de l’évolution des standards et bonnes pratiques. 
+          Pilotage de l’architecture logicielle et accompagnement des équipes sur l’usage de l’IA.
+    technologies:
+      - PHP & Slim
+      - DDD
+      - Microservices
+      - Event-driven architecture
+      - Agentic AI
+      - RabbitMq
+      - MySql
+      - React
+      - Testing
+      - Recruitment
+  - company: ByBorg Enterprises
+    position: Software Engineer, PHP
+    location: Luxembourg
+    startDate: '2020-07'
+    endDate: '2021-07'
+    url: https://www.byborgenterprises.com/
+    description:
+      en: |
+          PHP Software Engineer working on a platform powered by 50+ microservices handling millions of daily requests. 
+          Designed and developed distributed services, continuously improved performance and quality, 
+          contributed to software architecture evolution and engineering best practices, 
+          and collaborated closely with product teams to deliver consistent business value.
+      fr: |
+          Ingénieur logiciel PHP au sein d’une plateforme exploitant plus de 50 microservices pour des millions de requêtes quotidiennes. 
+          Conception et développement de services distribués, amélioration continue des performances et de la qualité, 
+          participation à l’évolution de l’architecture logicielle et aux bonnes pratiques d’ingénierie. 
+          Collaboration étroite avec les équipes produit pour délivrer une valeur métier régulière.
+    technologies:
+      - PHP & Slim
+      - DDD
+      - Microservices
+      - Event-driven architecture
+      - RabbitMq
+      - MySql
+      - React
+      - Clean Code
+      - Testing
+  - company: SCC
+    position: Software Engineer, Fullstack
+    location: Luxembourg
+    startDate: '2017-12'
+    endDate: '2020-07'
+    url: https://www.scc.fr/
+    description:
+      en: |
+          Built APIs optimized through best practices, and developed solutions involving digital signage and IoT.
+          Contributed to innovation projects supporting the digital transformation of shopping malls.
+      fr: |
+          Création d’APIs, optimisée par les bonnes pratiques, et le développement de solutions autour du digital signage et de l’IoT.
+          Intervention au cœur de projets d’innovation pour accompagner la transition digitale de centres commerciaux.
+    technologies:
+      - PHP
+      - Symfony
+      - JavaScript
+      - Ionic
+      - Digital Signage
+      - PostgreSql
+      - IoT
+      - CMS
+      - RabbitMq
+      - Clean Code
+      - Testing
+  - company: Vesperia
+    position: Software Engineer Consultant, Fullstack
+    location: Luxembourg
+    startDate: '2017-01'
+    endDate: '2017-11'
+    description:
+      en: |
+          Fullstack consultant working on diverse projects for a wide range of clients using multiple technologies (PHP, Symfony, Ionic…).
+          Symfony trainer responsible for upskilling team members.
+      fr: |
+          Consultant fullstack intervenant sur des missions variées pour des clients aux besoins hétérogènes, avec un large éventail de technologies (PHP, Symfony, Ionic…).
+          Formateur Symfony, en charge de la montée en compétences des collaborateurs.
+    technologies:
+      - PHP
+      - Symfony
+      - JavaScript
+      - Angular
+      - Ionic/Cordova
+      - RabbitMq
+      - PostgreSql
+      - Clean Code
+      - Testing
+  - company: ICS SA
+    position: Software Engineer, Fullstack
+    location: Luxembourg
+    startDate: '2013-10'
+    endDate: '2016-12'
+    description:
+      en: |
+          Developed the WYCC insured-member management platform from the initial ideation and design stages through to production release.
+          Real-time insurance contracts based on complex rules mecanisms.
+      fr: |
+          Développement de la plateforme de gestion des assurés WYCC, de la phase de réflexion au design, jusqu’à la mise en production.
+          Contrats d'assurance en temps réel basé sur des systèmes de régles complexes.
+    technologies:
+      - PHP
+      - Copix
+      - JavaScript
+      - jQuery
+      - PostgreSql
+
+education:
+  - institution: Université de Metz
+    degree:
+      en: Master's Degree
+      fr: License
+    field:
+      en: Computer Science
+      fr: Informatique
+    location: Metz, France
+    startDate: '2012'
+    endDate: '2013'
+    url: https://www.univ-lorraine.fr/
+  - institution: Université de Nancy
+    degree:
+      en: Associate's Degree
+      fr: BTS
+    field:
+      en: Computer Science
+      fr: Informatique
+    location: Nancy, France
+    startDate: '2010'
+    endDate: '2012'
+    url: https://www.univ-lorraine.fr/
+  - institution: Lycée de Jarny
+    degree:
+      en: High School Diploma
+      fr: BAC
+    field:
+      en: Computer Science
+      fr: Informatique
+    location: Jarny, France
+    startDate: '2009'
+    endDate: '2010'
+
+skills:
+  - category:
+      en: Programming Languages
+      fr: Languages de Programation
+    items:
+      - PHP
+      - Dart
+      - JavaScript/TypeScript
+  - category:
+      en: Frameworks & Tools
+      fr: Frameworks & Outils
+    items:
+      - Symfony
+      - Flutter
+      - Slim
+      - Angular
+      - React
+      - Claude Code
+      - Windsurf
+  - category:
+      en: Methodology & Architecture
+      fr: Méthodologie & Architecture
+    items:
+      - DDD
+      - Event-Driven Architecture
+      - Agentic AI
+      - Clean Code
+      - YAGNI
+      - DRY
+      - KISS
+      - SOLID
+      - Microservices
+
+languages:
+  - language:
+      en: French
+      fr: Français
+    proficiency: native
+  - language:
+      en: English
+      fr: Anglais
+    proficiency: advanced
+
+hobbies:
+  - en: Biker
+    fr: Motard
+  - en: Photographer/Videographer
+    fr: Photographe/Vidéaste
+  - en: Guitar player
+    fr: Guitariste
+  - en: Sports
+    fr: Sportif
+  - en: Family trips
+    fr: Voyages en famille
+
+social:
+  - platform: GitHub
+    url: https://github.com/JasonBenett
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/jason-benedetti-6151245b
